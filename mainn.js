@@ -9,19 +9,19 @@ btn.addEventListener("click", function(){
   const n =new Date(year.value,month.value - 1,day.value).getDay();
   let answer;
   if(n === 0){
-    answer = "日曜日";
+    answer = year.value + "年" + month.value + "月" + day.value + "日は日曜日です。";
   }else if(n === 1){
-    answer = "月曜日";
+    answer = year.value + "年" + month.value + "月" + day.value + "日は月曜日です。";
   }else if(n === 2){
-    answer = "火曜日";
+    answer = year.value + "年" + month.value + "月" + day.value + "日は火曜日です。";
   }else if(n === 3){
-    answer = "水曜日";
+    answer = year.value + "年" + month.value + "月" + day.value + "日は水曜日です。";
   }else if(n === 4){
-    answer = "木曜日";
+    answer = year.value + "年" + month.value + "月" + day.value + "日は木曜日です。";
   }else if(n === 5){
-    answer = "金曜日";
+    answer = year.value + "年" + month.value + "月" + day.value + "日は金曜日です。";
   }else if(n === 6){
-    answer = "土曜日";
+    answer = year.value + "年" + month.value + "月" + day.value + "日は土曜日です。";
   }
   // 結果画面に表示
   result.textContent = answer;
