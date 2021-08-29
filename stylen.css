@@ -1,6 +1,9 @@
+/* ページ全体 */
+body{
+  background-color: #ccc;
+}
 /* 全体 */
 .container{
-  background-color: #ccc;
   width: 500px;
   margin: 25px auto;
 }
