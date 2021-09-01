@@ -59,6 +59,10 @@ body{
   text-align: center;
   color: #fff;
 }
+
+.nobtn{
+  opacity: 0.5;
+}
 /* 結果エリア */
 .result-area{
   background-color: #f8f8f8;
@@ -68,6 +72,9 @@ body{
   /* 子要素の配置を親要素から計算するために初期設定のstaticからrelaticeに変更 */
   position: relative;
 }
+#result{
+  margin: 10px 10px;
+}
 #reset{
   margin: 0;
   text-decoration: underline;
@@ -76,6 +83,9 @@ body{
   position: absolute;
   bottom: 10px;
   right: 10px;
+}
+#reset.hidden{
+  display: none;
 }
 
 footer{
